@@ -28,5 +28,5 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ${{ github.GITHUB_REPOSITORY }}:main
-            ${{ github.GITHUB_REPOSITORY }}:latest
+            remindle/php-fpm:main
+            remindle/php-fpm:latest
