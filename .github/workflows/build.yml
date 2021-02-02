@@ -28,5 +28,5 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            remindle/php-fpm:main
-            remindle/php-fpm:latest
+            ghcr.io/remindle/php-fpm:main
+            ghcr.io/remindle/php-fpm:latest
